@@ -1,0 +1,8 @@
+﻿http://southworks.com/blog/2013/10/29/asynchronous-io-in-c-io-completion-ports/
+https://github.com/dschenkelman/async-io-talk
+
+BOOL WINAPI BindIoCompletionCallback(
+  _In_ HANDLE                          FileHandle,
+  _In_ LPOVERLAPPED_COMPLETION_ROUTINE Function,
+  _In_ ULONG                           Flags
+);
